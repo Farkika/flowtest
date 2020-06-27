@@ -1,0 +1,12 @@
+A referencia szerint és az érték szerinti átadás között az a különbség, hogy
+ha referencia szerint adok át egy értéket, akkor ha azon módosítok, akkor az módosítva is marad.
+
+pl.:
+referencia szerinti átadás:
+const addNumToArr = (arr1, num) => {
+  arr1.push(num);
+};
+ide nem kell return sem, mert az arr1 végére odarakta a num-ot.
+
+érték szerinti átadás:
+itt az érték nem változik, ha műveletet hajtunk rajta végre.
