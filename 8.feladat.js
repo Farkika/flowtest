@@ -1,3 +1,8 @@
+const readlineSync = require('readline-sync');
+
+const n = readlineSync.questionInt('Add meg az első számot: ');
+const m = readlineSync.questionInt('Add meg a második számot: ');
+
 const task = (n, m) => {
   const arr = new Array(n);
   for (let i = 0; i < n; i++) {
@@ -17,4 +22,4 @@ const task = (n, m) => {
   }
 };
 
-task(3, 3);
+task(n, m);
