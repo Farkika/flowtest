@@ -1,0 +1,13 @@
+Adat típusok:
+
+Egyszerüek:
+string // karakterek láncolata
+char // 1 db karakter
+int // egész szám
+float // lebegpontos szám
+double // egész szám nagyobb tartományon mint az int
+boolean // logikai érték  igaz (true) vagy hamis (false) lehet az értéke
+
+Összetettek:
+Array // tömb, elemei lehetnek 1 vagy több fajták is, ez az adott programozási nyelvtől függ
+Object // Obzsekt
